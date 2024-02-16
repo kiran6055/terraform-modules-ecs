@@ -3,13 +3,13 @@ variable "ecs_cluster_name" {
 }
 
 variable "ecs_log_group_name" {
- 
+  type = string 
 }
 
 
 
 variable "tags" {
-  type = map
+  
   
 }
 
